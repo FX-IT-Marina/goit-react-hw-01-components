@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(179, 168, 168);
+}
+.profile {
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid gray;
+  width: 500px;
+  padding-top: 50px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.41) 2px 3px 14px 2px;
+}
+
+.profile:hover {
+  box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+  -webkit-box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+  -moz-box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  border: 2px solid rgb(37, 37, 37);
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.name {
+  font-weight: 900;
+  color: rgb(57, 57, 57);
+  margin-bottom: 20px;
+}
+
+.tag {
+  margin-bottom: 0;
+  margin-top: 0;
+  letter-spacing: 0.05em;
+}
+.location {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0.05em;
+}
+
+.stats {
+  display: flex;
+
+  text-align: center;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(222, 221, 221);
+}
+
+.items:not(:last-child) {
+  border-right: 2px solid black;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.label {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.quantity {
+  font-weight: 800;
+}

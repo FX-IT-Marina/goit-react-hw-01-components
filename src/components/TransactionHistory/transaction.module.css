@@ -1,0 +1,38 @@
+.transactionHistory {
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid gray;
+  width: 800px;
+  padding: 15px 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.41) 2px 3px 14px 2px;
+  background-color: rgb(222, 221, 221);
+  border-spacing: 0;
+}
+
+.transactionHistory:hover {
+  box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+  -webkit-box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+  -moz-box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+}
+
+.table {
+  border-top: 2px solid grey;
+  padding: 20px;
+  text-align: center;
+}
+
+.table:not(:nth-child(3n)) {
+  border-right: 2px solid grey;
+}
+
+.name {
+  text-align: center;
+  font-weight: 900;
+
+  letter-spacing: 0.1em;
+}
+
+.tableName {
+  background-color: gray;
+  width: 100%;
+}

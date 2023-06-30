@@ -1,0 +1,41 @@
+.FriendList {
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid gray;
+  width: 450px;
+  padding: 15px 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.41) 2px 3px 14px 2px;
+  background-color: rgb(222, 221, 221);
+}
+.FriendList:hover {
+  box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+  -webkit-box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+  -moz-box-shadow: -4px 7px 65px 6px rgba(13, 13, 13, 0.75);
+}
+
+.FriendItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.FriendAvatar {
+  width: 48px;
+  border: 1px solid transparent;
+}
+
+.name {
+  text-align: center;
+  font-weight: 900;
+  color: rgb(57, 57, 57);
+  margin: 0px;
+  padding: 10px;
+  font-size: 40px;
+}
